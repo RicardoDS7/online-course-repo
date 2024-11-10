@@ -111,7 +111,7 @@ class Question(models.Model):
             return False
 
     def __str__(self):
-        return "Question: " + self.content
+        return "Question: " + self.question
 
 
 class Choice(models.Model):
