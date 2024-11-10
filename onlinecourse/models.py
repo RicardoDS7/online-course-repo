@@ -121,7 +121,7 @@ class Choice(models.Model):
     is_correct = models.BooleanField(default=False)
 
     def __str__(self):
-        return "Choice: " + self.content
+        return "Choice: " + self.choice
 
 class Submission(models.Model):
    enrollment = models.ForeignKey(Enrollment, on_delete=models.CASCADE)
